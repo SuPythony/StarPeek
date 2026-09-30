@@ -1,6 +1,6 @@
-# Github Stars Extension
+# StarPeek
 
-See the stars of a Github repository while hovering over its link without needing to navigate to it.
+See the stars of a GitHub repository while hovering over its link without needing to navigate to it.
 
 - <a href="#why">Why?</a>
 - <a href="#installation">Installation</a>
@@ -51,7 +51,7 @@ git clone https://github.com/SuPythony/Github-Stars-Extension
 
 You can goto any website and hover over any github repository link, and the extension will fetch the stars and show them in the tooltip. You can also click on the extension icon and then in the popup you can select whether to show the languages too. If selected, the extension will show the languages of the repository along with the stars. You can also enable prefetch which, when enabled, loads the data as soon as the webpage is loaded. After enabling this you won't have to wait for the data to be fetched after hovering over the link.
 
-If you get a rate limiting error you can provide an [access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) in the popup and that will be used for the requests. You don't need to provide any access scopes to the token. It is not collected and only stored locally.
+If you get a rate limiting error you can provide an [access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) in the popup and that will be used for the requests. You don't need to provide any access scopes to the token. It is not collected and is only stored locally in your browser. See the [privacy policy](PRIVACY.md).
 
 ---
 

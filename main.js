@@ -22,7 +22,7 @@ function main() {
                             let url = `https://api.github.com/repos/${
                                 splitted[splitted.length - 2]
                             }/${splitted[splitted.length - 1]}`;
-                            chrome.storage.sync.get("token", ({ token }) => {
+                            chrome.storage.local.get("token", ({ token }) => {
                                 let options = {};
                                 if (token) {
                                     options = {
@@ -130,7 +130,7 @@ function main() {
                                             let url = `https://api.github.com/repos/${
                                                 splitted[splitted.length - 2]
                                             }/${splitted[splitted.length - 1]}/languages`;
-                                            chrome.storage.sync.get("token", ({ token }) => {
+                                            chrome.storage.local.get("token", ({ token }) => {
                                                 let options = {};
                                                 if (token) {
                                                     options = {
@@ -193,7 +193,7 @@ function main() {
                                     let url = `https://api.github.com/repos/${
                                         splitted[splitted.length - 2]
                                     }/${splitted[splitted.length - 1]}`;
-                                    chrome.storage.sync.get("token", ({ token }) => {
+                                    chrome.storage.local.get("token", ({ token }) => {
                                         let options = {};
                                         if (token) {
                                             options = {

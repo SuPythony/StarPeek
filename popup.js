@@ -26,12 +26,12 @@ document.getElementById("prefetch").onchange = () => {
 
 document.getElementById("tokenForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    chrome.storage.sync.set({ token: document.getElementById("token").value });
+    chrome.storage.local.set({ token: document.getElementById("token").value });
     document.getElementById("tokenForm").style.display = "none";
     document.getElementById("success").style.display = "block";
 });
 
-chrome.storage.sync.get("token", ({ token }) => {
+chrome.storage.local.get("token", ({ token }) => {
     if (!token) {
         document.getElementById("tokenForm").style.display = "flex";
     } else {

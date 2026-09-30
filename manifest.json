@@ -1,7 +1,7 @@
 {
-    "name": "Github Stars",
-    "description": "See the number of stars earned by a github repository while hovering over its link.",
-    "version": "1.1.0",
+    "name": "StarPeek",
+    "description": "See the number of stars earned by a GitHub repository while hovering over its link.",
+    "version": "1.2.0",
     "manifest_version": 3,
     "content_scripts": [
         {
