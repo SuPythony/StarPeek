@@ -14,7 +14,7 @@ Many a times when we are on the website of a library or framework, we want to se
 
 ## Installation
 
-Follow the steps below to install:
+You can directly install it from the Chrome Web Store [here](https://chromewebstore.google.com/detail/starpeek/gppcomlihamjbakpnjafgmolpieofdmm) or install it manually by following the steps below.
 
 ### Step 1: Download the source code
 
